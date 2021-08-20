@@ -1,0 +1,15 @@
+@import "Colors";
+@import "FlexGrid";
+
+body {
+    background: $color-bg;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.primary {
+    background-color: $color-primary;
+}
+
+.transparent {
+    background-color: $color-transparent;
+}

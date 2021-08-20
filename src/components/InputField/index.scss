@@ -1,0 +1,12 @@
+@import '../../Colors';
+
+.input-field {
+    background-color: #0b1a2d;
+    padding: 0.75rem;
+    border: 0.15rem solid $color-border;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    font-family: inherit;
+    color: white;
+    outline: none;
+}
