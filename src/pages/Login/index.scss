@@ -1,0 +1,46 @@
+@import "../../Colors";
+
+.login-header {
+  position: absolute;
+  top: 0;
+  
+  img {
+    width: 100vw;
+  }
+}
+
+div.login-form {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100vw;
+
+  .row {
+    height: 3rem;
+  }
+
+  small {
+    color: $color-gray;
+    margin-right: 3.5rem;
+    line-height: 2rem;
+  }
+
+  @media (min-width: 241px) {
+    button,
+    input,
+    span {
+      max-width: 15rem;
+    }
+  }
+}
+
+div.container-fluid {
+  padding: unset !important;
+  width: 95vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 10rem !important;
+  padding-top: 10rem !important;
+}

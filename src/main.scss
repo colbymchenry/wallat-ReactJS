@@ -18,3 +18,27 @@ body {
 .transparent {
     background-color: $color-transparent;
 }
+
+button.transparent {
+    border: 0.13rem solid $color-border
+}
+
+.w100 {
+    width: 100%;
+    flex-basis: 75%;
+}
+
+.w75 {
+    width: 75%;
+    flex-basis: 75%;
+}
+
+.w50 {
+    width: 50%;
+    flex-basis: 50%;
+}
+
+.w25 {
+    width: 25%;
+    flex-basis: 25%;
+}
