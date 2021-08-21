@@ -1,12 +1,27 @@
 @import '../../Colors';
 
 .input-field {
-    background-color: #0b1a2d;
-    padding: 0.75rem;
-    border: 0.15rem solid $color-border;
-    border-radius: 0.2rem;
-    font-size: 1rem;
-    font-family: inherit;
-    color: white;
-    outline: none;
+
+    input[type=text] {
+        background-color: #0b1a2d;
+        padding: 0.75rem;
+        border: 0.15rem solid $color-border;
+        border-radius: 0.2rem;
+        font-size: 1rem;
+        font-family: inherit;
+        color: white;
+        outline: none;
+    }
+
+    input.icon {
+        padding-left: 3rem;
+    }
+
+    span.icon {
+        position: absolute;
+        z-index: 1;
+        color: $color-icon;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
 }

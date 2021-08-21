@@ -1,9 +1,14 @@
 @import "Colors";
-@import "FlexGrid";
+@import "flexboxgrid";
 
 body {
     background: $color-bg;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    height: 98vh;
+}
+
+.app {
+    height: 100%;
 }
 
 .primary {

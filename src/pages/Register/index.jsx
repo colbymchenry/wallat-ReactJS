@@ -14,13 +14,13 @@ const Register = props => {
     return (
         <form onSubmit={handleSubmit(onSubmit)} className={props?.className}>
             <div className="row">
-                <InputField ref={register({ required: false })} name="username" placeholder="Username (Optional)" className={"d-center"} />
+                <InputField ref={register({ required: false })} name="username" placeholder="Username (Optional)" className={"h-center"} />
             </div>
             <div className="row">
-                <InputField ref={register({ required: false })} name="email" placeholder="Email (Optional)" className={"d-center"} />
+                <InputField ref={register({ required: false })} name="email" placeholder="Email (Optional)" className={"h-center"} />
             </div>
             <div className="row">
-                <Button submit={true} type={"transparent"} label={"ENROLL"} className={"d-center"} />
+                <Button submit={true} type={"transparent"} label={"ENROLL"} className={"h-center"} />
             </div>
         </form>
     )
